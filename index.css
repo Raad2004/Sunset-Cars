@@ -1,0 +1,154 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #41D1FF;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.home {
+  text-align: center;
+}
+
+.manufacturer-section {
+  margin: 20px 0;
+}
+
+.car-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Adjust width as needed */
+  transition: transform 0.3s;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.car-card h4 {
+  margin: 10px 0;
+}
+
+.compare-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #41D1FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.compare-button:hover {
+  background-color: #39a1d6;
+}
+
+.car-selector {
+  margin-bottom: 20px;
+}
+
+.car-dropdowns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.comparison-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 5px;
+}
+
+.login-container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #41D1FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #39a1d6;
+}
+
+.error {
+  color: red;
+  text-align: center;
+} 
