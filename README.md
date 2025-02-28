@@ -1,6 +1,6 @@
 # Performance Car Hub
 
-![Performance Car Hub](Car%20websites.PNG)
+![Performance Car Hub](Car_website.PNG)
 
 ## Overview
 
